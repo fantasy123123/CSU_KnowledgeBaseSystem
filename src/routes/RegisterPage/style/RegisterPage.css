@@ -4,7 +4,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("images/backgroundImage.png");
+    background: url("./image/backgroundImage.png");
     background-size: 100% 100%;
 }
 
@@ -25,7 +25,7 @@
     left:0;
     bottom: 0;
     right: 30%;
-    background: url("images/RegisterPageBackgroundImage.jpg");
+    background: url("./image/RegisterPageBackgroundImage.jpg");
     background-size: 100% 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -37,7 +37,7 @@
     top:3%;
     height: 69px;
     width: 246px;
-    background: url("images/logo.png");
+    background: url("./image/logo.png");
     background-size: 100% 100%;
 }
 

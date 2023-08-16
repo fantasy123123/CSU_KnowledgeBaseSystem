@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import { Tabs } from '@arco-design/web-react';
-import ViewIntegralUseRecord from '@/routes/modules/ViewIntegralUseRecord';
-import ViewPublishReword from '@/routes/modules/ViewPublishReword';
-import '../style/integralPage.css';
-import ViewRewardRecord from '@/routes/modules/ViewRewardRecord';
+import ViewIntegralUseRecord from '@/routes/MainPage/component/MenuItems/IntegralPage/ViewIntegralUseRecord';
+import ViewPublishReword from '@/routes/MainPage/component/MenuItems/IntegralPage/ViewPublishReword';
+import '../../../style/MainPage.css';
+import ViewRewardRecord from '@/routes/MainPage/component/MenuItems/IntegralPage/ViewRewardRecord';
 
 const { TabPane } = Tabs;
 

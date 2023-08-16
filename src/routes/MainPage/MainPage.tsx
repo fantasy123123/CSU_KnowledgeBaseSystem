@@ -1,11 +1,11 @@
 // 个人模块界面（总界面）
 
-import '../style/MainPage.css';
-import EditorPersonalInformationPage from '@/routes/modules/EditorPersonalInformationPage';
-import IntegralPage from '@/routes/modules/IntegralPage';
-import MenuItems from '@/routes/modules/MenuItems';
-import PersonalInformation from '@/routes/modules/PersonalInformation';
-import ResourcePage from '@/routes/modules/ResoursePage';
+import './style/MainPage.css';
+import PersonalInformationPage from '@/routes/MainPage/component/MenuItems/EditInformationPage/PersonalInformationPage';
+import IntegralPage from '@/routes/MainPage/component/MenuItems/IntegralPage/IntegralPage';
+import MenuItems from '@/routes/MainPage/component/MenuItems/Menu/MenuItems';
+import PersonalInformation from '@/routes/MainPage/component/PersonalInformation/PersonalInformation';
+import ResourcePage from '@/routes/MainPage/component/MenuItems/ResourcePage/ResoursePage';
 
 const MainPage = () => {
   return (
@@ -39,7 +39,7 @@ const MainPage = () => {
       </div>
       {/* <IntegralPage /> */}
       {/* <ResourcePage /> */}
-      <EditorPersonalInformationPage />
+      <PersonalInformationPage />
     </div>
   );
 };

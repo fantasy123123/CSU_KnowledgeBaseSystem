@@ -1,9 +1,9 @@
 // 文件入口
 
 import { Helmet } from '@modern-js/runtime/head';
-import RegisterPage from '@/routes/modules/RegisterPage';
-import MainPage from '@/routes/modules/MainPage';
-import SignInPage from '@/routes/modules/SignInPage';
+import RegisterPage from '@/routes/RegisterPage/RegisterPage';
+import MainPage from '@/routes/MainPage/MainPage';
+import SignInPage from '@/routes/SignInPage/SignInPage';
 
 const Index = () => (
   <div>
@@ -15,8 +15,8 @@ const Index = () => (
       />
     </Helmet>
     <main>
-      {/* <SignInPage /> */}
-      <MainPage />
+      <SignInPage />
+      {/* <MainPage /> */}
       {/* <RegisterPage /> */}
     </main>
   </div>

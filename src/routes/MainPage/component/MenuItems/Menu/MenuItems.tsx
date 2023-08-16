@@ -1,7 +1,7 @@
 // 左端的导航栏
 
 import { Menu } from '@arco-design/web-react';
-import '../style/MainPage.css';
+import '../../../style/MainPage.css';
 import {
   IconEdit,
   IconFile,

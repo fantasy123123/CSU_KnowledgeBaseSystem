@@ -11,7 +11,7 @@
 .logo{
     width: 500px;
     height: 80px;
-    background: url("images/logoTwo.png");
+    background: url("./image/logo.png");
     background-size: 100% 100%;
     margin: 15px;
 }
@@ -25,3 +25,6 @@
     background: #FFFFFF
 }
 
+.arco-tabs-header-title-text{
+    font-size: 18px;
+}

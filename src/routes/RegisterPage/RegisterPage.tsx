@@ -1,9 +1,9 @@
 // 注册界面
 
-import '../style/RegisterPage.css';
+import './style/RegisterPage.css';
 import { Select, Tabs, Typography } from '@arco-design/web-react';
-import TelephoneRegister from '@/routes/modules/TelephoneRegister';
-import AccountRegister from '@/routes/modules/AccountRegister';
+import TelephoneRegister from '@/routes/RegisterPage/component/TelephoneRegister';
+import AccountRegister from '@/routes/RegisterPage/component/AccountRegister';
 
 const { TabPane } = Tabs;
 const { Option } = Select;

@@ -1,10 +1,9 @@
 // 资源界面
 
 import { Tabs } from '@arco-design/web-react';
-import CollectedResource from '@/routes/modules/CollectedResource';
-import BoughtResource from '@/routes/modules/BougntResource';
-import '../style/integralPage.css';
-import { useRef } from 'react';
+import CollectedResource from '@/routes/MainPage/component/MenuItems/ResourcePage/CollectedResource';
+import BoughtResource from '@/routes/MainPage/component/MenuItems/ResourcePage/BougntResource';
+import '../../../style/MainPage.css';
 
 const { TabPane } = Tabs;
 
