@@ -16,10 +16,7 @@ const PersonalInformation = () => {
       style={{
         display: 'flex',
         justifyContent: 'flex-end',
-        position: 'absolute',
-        right: '0',
-        top: '0',
-        bottom: '86%',
+        marginRight: 30,
       }}
     >
       <div style={{ marginTop: '25px', textAlign: 'right' }}>
@@ -63,15 +60,15 @@ const PersonalInformation = () => {
         </div>
       </div>
 
-      <div
-        style={{ marginTop: '20px', marginLeft: '20px', marginRight: '20px' }}
-      >
-        <Space size="large">
-          <Avatar size={84}>
-            <img alt="avatar" src="dist/static/image/avatar.png" />
-          </Avatar>
-        </Space>
-      </div>
+      {/* <div */}
+      {/*  style={{ marginTop: '20px', marginLeft: '20px', marginRight: '20px' }} */}
+      {/* > */}
+      {/*  <Space size="large"> */}
+      {/*    <Avatar size={84}> */}
+      {/*      <img alt="avatar" src="dist/static/image/avatar.png" /> */}
+      {/*    </Avatar> */}
+      {/*  </Space> */}
+      {/* </div> */}
     </div>
   );
 };

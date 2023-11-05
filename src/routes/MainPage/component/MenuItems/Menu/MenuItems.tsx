@@ -4,6 +4,8 @@ import { Menu } from '@arco-design/web-react';
 import '../../../style/MainPage.css';
 import {
   IconEdit,
+  IconExclamation,
+  IconEye,
   IconFile,
   IconQuestion,
   IconSettings,
@@ -31,6 +33,14 @@ const MenuItems = () => {
       <MenuItem key="resources">
         <IconFile />
         查看资源
+      </MenuItem>
+      <MenuItem key="resourceCheck">
+        <IconEye />
+        资源审核
+      </MenuItem>
+      <MenuItem key="reportCheck">
+        <IconExclamation />
+        举报审核
       </MenuItem>
       <MenuItem key="personalInformation">
         <IconEdit />

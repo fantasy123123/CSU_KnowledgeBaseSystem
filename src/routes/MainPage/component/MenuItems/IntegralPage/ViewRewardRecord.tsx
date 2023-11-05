@@ -1,6 +1,6 @@
 // 积分界面：查看奖励记录
 
-import { Table, TableColumnProps, Input } from '@arco-design/web-react';
+import { Table, TableColumnProps, Input, Button } from '@arco-design/web-react';
 import { useRef, useState } from 'react';
 import { IconSearch } from '@arco-design/web-react/icon';
 
@@ -56,49 +56,49 @@ const ViewRewardRecord = () => {
       key: 1,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
     {
       key: 2,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
     {
       key: 3,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
     {
       key: 4,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
     {
       key: 5,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
     {
       key: 6,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
     {
       key: 7,
       operation: '操作',
       change: '积分+20',
-      detail: '详细信息',
+      detail: <Button type={'primary'}>查看详细信息</Button>,
       time: '2023年7月31日',
     },
   ]);

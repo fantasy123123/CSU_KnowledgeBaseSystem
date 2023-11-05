@@ -1,6 +1,10 @@
 // 个人模块界面（总界面）
 
 import './style/MainPage.css';
+import ReportCheckDetailPage from '@/routes/MainPage/component/MenuItems/CheckPage/ReportCheckDetailPage';
+import ReportCheckPage from '@/routes/MainPage/component/MenuItems/CheckPage/ReportCheckPage';
+import ResourceCheckDetailPage from '@/routes/MainPage/component/MenuItems/CheckPage/ResourceCheckDetailPage';
+import ResourceCheckPage from '@/routes/MainPage/component/MenuItems/CheckPage/ResourceCheckPage';
 import PersonalInformationPage from '@/routes/MainPage/component/MenuItems/EditInformationPage/PersonalInformationPage';
 import IntegralPage from '@/routes/MainPage/component/MenuItems/IntegralPage/IntegralPage';
 import MenuItems from '@/routes/MainPage/component/MenuItems/Menu/MenuItems';
@@ -38,8 +42,12 @@ const MainPage = () => {
         <MenuItems />
       </div>
       {/* <IntegralPage /> */}
-      {/* <ResourcePage /> */}
-      <PersonalInformationPage />
+      <ResourcePage />
+      {/* <PersonalInformationPage /> */}
+      {/* <ReportCheckPage /> */}
+      {/* <ResourceCheckPage /> */}
+      {/* <ReportCheckDetailPage /> */}
+      {/* <ResourceCheckDetailPage /> */}
     </div>
   );
 };

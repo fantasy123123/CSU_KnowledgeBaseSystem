@@ -56,77 +56,49 @@ const BoughtResource = () => {
       key: 1,
       boughtResource: '购买的资源1',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
     {
       key: 2,
       boughtResource: '购买的资源2',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
     {
       key: 3,
       boughtResource: '购买的资源3',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
     {
       key: 4,
       boughtResource: '购买的资源4',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
     {
       key: 5,
       boughtResource: '购买的资源5',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
     {
       key: 6,
       boughtResource: '购买的资源6',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
     {
       key: 7,
       boughtResource: '购买的资源7',
       description: '描述',
-      view: (
-        <a href="about:blank" style={{ textDecoration: 'none' }}>
-          点击查看资源
-        </a>
-      ),
+      view: <Button type={'primary'}>点击查看资源</Button>,
       time: '2023年7月31日',
     },
   ]);

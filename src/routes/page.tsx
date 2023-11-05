@@ -15,8 +15,8 @@ const Index = () => (
       />
     </Helmet>
     <main>
-      <SignInPage />
-      {/* <MainPage /> */}
+      {/* <SignInPage /> */}
+      <MainPage />
       {/* <RegisterPage /> */}
     </main>
   </div>
